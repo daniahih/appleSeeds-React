@@ -1,7 +1,14 @@
 const Test = ()=>{
-    return <h1>
-        Welcome to first project in React !!
-    </h1>
+    return (
+  <div>
+<h1> hello world</h1>
+<button onClick={() => { alert("clicked")}}> Chnage Tittle</button>
+  </div>
+
+
+
+    )
+
 }
 
 export default Test;
