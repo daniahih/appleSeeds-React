@@ -1,12 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import reportWebVitals from './reportWebVitals';
-import Boxes from './components/4.1_boxes/4.1_boxes';
-import './components/4.1_boxes/4.1.css'
+import Quiz from './components/4.2_Quiz/4.2_quiz';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-    <Boxes/>
+   <Quiz/>
 
 );
 
