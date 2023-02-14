@@ -1,13 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import './components/3.2 BasicsOFJSX/3.2.css'
 import reportWebVitals from './reportWebVitals';
-import Basics from './components/3.2 BasicsOFJSX/3.2_basics_of_jsx';
+import Boxes from './components/4.1_boxes/4.1_boxes';
+import './components/4.1_boxes/4.1.css'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-<Basics />
+    <Boxes/>
 
 );
 
