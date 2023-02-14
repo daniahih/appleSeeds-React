@@ -1,12 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import reportWebVitals from './reportWebVitals';
-import Quiz from './components/4.2_Quiz/4.2_quiz';
+import Button from './components/5.1_buttons/5.1_buttons';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-   <Quiz/>
-
+    <div>
+        <Button name ='not important '/>
+        <Button name ='important'/>
+    </div>
 );
 
 // If you want to start measuring performance in your app, pass a function
