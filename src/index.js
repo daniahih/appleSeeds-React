@@ -1,13 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
+import './components/3.2 BasicsOFJSX/3.2.css'
 import reportWebVitals from './reportWebVitals';
-import Helloworld from './components/3.1_helloWorld/3.1_helloWorld';
+import Basics from './components/3.2 BasicsOFJSX/3.2_basics_of_jsx';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-
- <Helloworld/>
+<Basics />
 
 );
 
