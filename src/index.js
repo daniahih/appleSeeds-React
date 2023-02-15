@@ -1,11 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import reportWebVitals from './reportWebVitals';
-import IncrementAndDecrement from './components/6.3_increment_and_decrement/6.3_increment_and_decrement'
+
+import Checkbox from './components/7.2_checkbox/7.2_checkbox';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <div>
-<IncrementAndDecrement/>
+<Checkbox discription='I read the term of the app' />
+<Checkbox discription='I accept the term of the app' />
+<Checkbox discription='I want to get the weekly news letter' isChecked='true'/>
+<Checkbox discription='I want to get offers and sales' isChecked='true'/>
+
     </div>
 )
 
