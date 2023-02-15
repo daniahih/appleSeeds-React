@@ -1,12 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import reportWebVitals from './reportWebVitals';
-import Counter from './components/6.1_increment/6.1_increment';
+import Mother from './components/5.3_a__tale_of_five_balloons/5.3_a__tale_of_five_balloons';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <div>
-
-  <Counter/>
+<Mother/>
     </div>
 )
 

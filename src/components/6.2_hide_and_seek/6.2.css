@@ -1,0 +1,12 @@
+.parentBox{
+    border: 1px solid black ;
+    width: 150px;
+    height: 150px;
+}
+
+.box{
+    background-color: yellow ;
+    width: 100px;
+    height: 100px;
+
+}
