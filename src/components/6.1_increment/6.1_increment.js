@@ -1,18 +1,13 @@
-import React, { useState } from 'react';
+import React ,{useState} from "react"
 
-const Counter =() =>{
-    const [count,setcount]=useState(0);
-    const increment =() =>{
-        return setcount(count +1)
+const Counter =( )=>{
+    const [count,setcount]=useState(1)
+    const clickHandler =() =>{
+        setcount(count+1)
     }
-return (
-
-<div>
-    <label> counter :{count}  </label>
-    <button onClick={ increment}> increment</button>
+return <div>
+    <label> {count}</label>
+    <button onClick={clickHandler}>increment</button>
 </div>
-
-)
-
-}
-export default Counter
+} 
+ export default Counter
