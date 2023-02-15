@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import reportWebVitals from './reportWebVitals';
-import Box from './components/6.2_hide_and_seek/6.2_hide_and_seek';
+import IncrementAndDecrement from './components/6.3_increment_and_decrement/6.3_increment_and_decrement'
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <div>
-<Box/>
+<IncrementAndDecrement/>
     </div>
 )
 
