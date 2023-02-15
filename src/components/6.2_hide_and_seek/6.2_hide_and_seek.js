@@ -1,21 +1,18 @@
-import React, { useState } from 'react';
+import React ,{useState} from "react"
 import './6.2.css'
 const Box = () =>{
-    const [show, setShow] = useState(true);
-    function toggleShow() {
-        setShow(!show);
+     const [isVisable,setApperance] = useState(false)
+      const clickHandler =()=>{
+        setApperance(!isVisable)
       }
+    return(
 
-
-    return (
-
-    <div className='parentBox' >
-        <button onClick={toggleShow}> show/hide </button>
-        <div className='box'>
-
-        </div>
+    <div className="parentBox">
+<button onClick={clickHandler}>
+show/hide
+</button>
+{isVisable && <div className="box"></div>}
     </div>
     )
 }
-
  export default Box

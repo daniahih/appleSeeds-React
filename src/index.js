@@ -1,12 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import reportWebVitals from './reportWebVitals';
-
-import Counter from './components/6.1_increment/6.1_increment';
+import Box from './components/6.2_hide_and_seek/6.2_hide_and_seek';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <div>
-<Counter/>
+<Box/>
     </div>
 )
 
