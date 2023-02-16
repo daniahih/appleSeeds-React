@@ -1,15 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import reportWebVitals from './reportWebVitals';
-
-import Checkbox from './components/7.2_checkbox/7.2_checkbox';
+import Parent from './components/7.1_child_to_father_colors/7.1_child_to_father_colors';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <div>
-<Checkbox discription='I read the term of the app' />
-<Checkbox discription='I accept the term of the app' />
-<Checkbox discription='I want to get the weekly news letter' isChecked='true'/>
-<Checkbox discription='I want to get offers and sales' isChecked='true'/>
+<Parent/>
 
     </div>
 )
