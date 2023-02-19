@@ -1,11 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import reportWebVitals from './reportWebVitals';
-import Parent from './components/7.1_child_to_father_colors/7.1_child_to_father_colors';
+import App from './App';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <div>
-<Parent/>
+ 
+<App/>
 
     </div>
 )
