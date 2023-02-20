@@ -1,8 +1,8 @@
-import AddPerson from "./components/7.3_form_review/AddPerson";
+import FavoriteColor from "./components/13.1Favorite Color/FavoriteColor";
 function App() {
   return (
     <div>
-<AddPerson/>
+<FavoriteColor/>
 
     </div>
   );
