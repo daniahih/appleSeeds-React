@@ -1,11 +1,15 @@
-import FavoriteColor from "./components/13.1Favorite Color/FavoriteColor";
+import Box from "./components/13.2BoxAnimation/BoxAnimation";
 function App() {
   return (
     <div>
-<FavoriteColor/>
-
+      <Box size={50} />
+      <br></br>
+      <Box size={100} />
+     <br></br>
+      <Box size={150} />
     </div>
   );
 }
+
 
 export default App;
