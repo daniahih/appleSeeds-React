@@ -1,15 +1,11 @@
-import Box from "./components/13.2BoxAnimation/BoxAnimation";
+// import Todo2 from "./components/17.1ToDo/Todo2";
+import VideoPlayer from "./components/10.1VideoPuase/VideoPase";
 function App() {
   return (
     <div>
-      <Box size={50} />
-      <br></br>
-      <Box size={100} />
-     <br></br>
-      <Box size={150} />
+      <VideoPlayer />
     </div>
   );
 }
-
 
 export default App;
