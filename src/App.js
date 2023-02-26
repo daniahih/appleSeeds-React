@@ -1,11 +1,9 @@
-// import Todo2 from "./components/17.1ToDo/Todo2";
-import VideoPlayer from "./components/10.1VideoPuase/VideoPase";
-function App() {
+import TODO from "./components/17.2TODO/ToDo";
+
+export default function App() {
   return (
-    <div>
-      <VideoPlayer />
-    </div>
+    <>
+      <TODO />
+    </>
   );
 }
-
-export default App;
