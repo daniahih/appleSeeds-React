@@ -1,9 +1,8 @@
-import TOdo from "./components/20.2_simple_todo/simple_todo";
-
+import BoxAnimation from "./components/21.1_box_animation/BoxAnimation";
 export default function App() {
   return (
     <>
-      <TOdo />
+      <BoxAnimation size={170} />
     </>
   );
 }
