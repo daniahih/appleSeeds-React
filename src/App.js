@@ -1,8 +1,8 @@
-import BoxAnimation from "./components/21.1_box_animation/BoxAnimation";
+import HomePage from "./components/24.2Customhooks/HomePage";
 export default function App() {
   return (
     <>
-      <BoxAnimation size={170} />
+      <HomePage />
     </>
   );
 }
